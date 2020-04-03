@@ -1,0 +1,105 @@
+/* Styles for the Home React component */
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.home__bg-image {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  /* background-image: url("./static/home-books.jpg"); */
+}
+
+.home__button-link {
+  text-decoration: none;
+}
+
+.home__button {
+  width: 100%;
+  height: 100%;
+  border: 4px darkslategrey solid;
+}
+
+/* Increase specificity to override component styles */
+.MuiButton-root.home__button:hover {
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.home__button .MuiButton-label {
+  font-size: 1.5em;
+  color: darkslategrey;
+}
+
+/* These are defined by us */
+
+#profileIcon {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 50px;
+  right: 100px;
+  border: 2px darkslategrey solid;
+  border-radius: 50%;
+}
+
+#title {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+}
+
+#posts {
+  position: absolute;
+  width: 50%;
+  left: 5%;
+  top: 30%;
+}
+
+.button {
+  /* this button is for the profile, edit later */
+  width: 100%;
+  height: 100%;
+}
+
+#questionDiv {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  height: 200px;
+  width: 45%;
+}
+
+#submitButton {
+  position: absolute;
+  right: 25%;
+}
+
+.pheonix {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    margin-left: 8%;
+}
+
+.blankInQ {
+  height: 30px;
+}
+
+.blankInP {
+  height: 20px;
+}
+
+.hidden{
+  display: none;
+}

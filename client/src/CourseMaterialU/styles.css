@@ -1,0 +1,44 @@
+/* Styles for the Home React component */
+.title {
+  position: absolute;
+  width: 90%;
+}
+.usercourse {
+    position: absolute;
+    width: 80%;
+    height: 90%;
+    margin-left: 5%;
+}
+.profile {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  border: 2px darkslategrey solid;
+  border-radius: 50%;
+}
+.courseboard {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 100%;
+}
+.coursecard {
+    position: relative;
+    width: 80%;
+    margin-top: 20px;
+    background: lightblue;
+
+}
+.notify {
+    margin: 10px;
+    border: 1px black solid;
+}
+.todoLists {
+    border: 2px black solid;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    padding: 10px;
+}

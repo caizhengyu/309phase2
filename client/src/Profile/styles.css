@@ -1,0 +1,81 @@
+.basics{
+	position: fixed;
+    width: 200px;
+    top: 17%;
+    text-align: center;
+    right: 120px;
+}
+
+.picContainer{
+	width: 17%;
+    top: 120px;
+    position: fixed;
+    right: 0px;
+}
+
+.major{
+	left: -30px;
+	position: relative;
+}
+
+.Posts {
+	position: absolute;
+	top: 10%;
+	left: 100px;
+}
+
+
+
+.paper-button {
+  /*border: 4px darkslategrey solid;*/
+  text-transform: none;
+}
+
+.home__button-link {
+  text-decoration: none;
+  /*text-align: left;*/
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.myButton{
+	top: 35px;
+}
+
+.curPost{
+	background-color: lightblue;
+	width: 1000px;
+	min-height: 1000px;
+	position:fixed;
+	left: 100px;
+	top: 50px;
+}
+
+.blur{
+	filter: blur(2px);
+}
+
+.Bernie {
+    position: absolute;
+    width: 80%;
+    margin-left: 8%;
+}
+
+.myQ {
+	position: absolute;
+	left: 10%;
+}
+
+.aPost {
+	position: relative;
+	left: 10%;
+	margin-top: 50px;
+	height: 100px;
+	width: 600px;
+}
+
+#blank {
+	height: 10px;
+}

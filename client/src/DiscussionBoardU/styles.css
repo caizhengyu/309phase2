@@ -1,0 +1,76 @@
+/* Styles for the Home React component */
+.title {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+.subtitle {
+  position: relative;
+  top: 5%;
+  left: 5%;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.left {
+  position: relative;
+  top: 200px;
+  left: 150px;
+  transform: translate(-50%, -50%);
+}
+
+.blank {
+  width: 300px;
+  height: 200px;
+}
+
+.notification {
+  position: absolute;
+  width: 500px;
+  height: 600px;
+  top: 10%;
+  left: 40%;
+  border: 2px darkslategrey solid;
+  background-color: white
+}
+
+.header {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.home__bg-image {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  /* background-image: url("./static/home-books.jpg"); */
+}
+
+.home__button-link {
+  text-decoration: none;
+}
+
+.home__button {
+  width: 300px;
+  height: 80px;
+  border: 4px darkslategrey solid;
+}
+
+/* Increase specificity to override component styles */
+.MuiButton-root.home__button:hover {
+  background-color: transparent;
+  border: 4px darkslategrey solid;
+  border-radius: 0;
+}
+
+.home__button .MuiButton-label {
+  font-size: 1.5em;
+  color: darkslategrey;
+}
